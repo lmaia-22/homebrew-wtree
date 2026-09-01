@@ -9,8 +9,8 @@ class Wtree < Formula
 
   def install
     bin.install "wtree.sh" => "wtree"
-    (share/"wtree").install "shell/wtree.zsh"
-    (share/"wtree").install "shell/wtree.bash"
+    pkgshare.install "shell/wtree.zsh"
+    pkgshare.install "shell/wtree.bash"
   end
 
   def caveats
@@ -18,8 +18,8 @@ class Wtree < Formula
       To enable `wtree switch` and tab-completion, source the shell
       integration file for your shell in your rc file:
 
-        zsh:  source "#{HOMEBREW_PREFIX}/share/wtree/wtree.zsh"
-        bash: source "#{HOMEBREW_PREFIX}/share/wtree/wtree.bash"
+        zsh:  source "#{pkgshare}/wtree.zsh"
+        bash: source "#{pkgshare}/wtree.bash"
 
       Then restart your shell.
     EOS
