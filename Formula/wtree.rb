@@ -1,11 +1,12 @@
 class Wtree < Formula
   desc "Bare-clone git worktrees, without the ceremony"
   homepage "https://github.com/lmaia-22/wtree"
-  url "https://github.com/lmaia-22/wtree/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "5b436cc46cb10f46a500da98e0e6a076516cd97be2b738b7d895f86e5ad02485"
+  url "https://github.com/lmaia-22/wtree/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "9e6f7f2782697414f96bfd2a8e80dc80aae60bc2c4c436e5893ec0674a050def"
   license "MIT"
 
   depends_on "fzf"
+  depends_on "gh"
 
   def install
     bin.install "wtree.sh" => "wtree"
