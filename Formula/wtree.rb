@@ -16,7 +16,7 @@ class Wtree < Formula
   def caveats
     <<~EOS
          \e[38;2;0;255;136m⢀⣠⣴⣶⣶⣦⣄⡀\e[0m
-       \e[38;2;0;220;160m⢀⣴⣿⣿⣿⣿⣿⣿⣿⣦⡀\e[0m     \e[1;37mwtree\e[0m
+       \e[38;2;0;220;160m⢀⣴⣿⣿⣿⣿⣿⣿⣿⣦⡀\e[0m     \e[1;37mwtree\e[0m \e[90mv#{version}\e[0m
       \e[38;2;0;185;180m⢠⣿⣿⣿\e[38;2;220;40;40m⣿\e[38;2;0;185;180m⣿⣿\e[38;2;220;40;40m⣿\e[38;2;0;185;180m⣿⣿⡄\e[0m    \e[90mbare-clone git worktrees\e[0m
        \e[38;2;0;150;200m⠙⠻⢿⣿⣿⣿⣿⠿⠟⠋\e[0m     \e[38;2;0;185;180mwithout the ceremony\e[0m
             \e[38;2;180;120;60m║\e[0m
