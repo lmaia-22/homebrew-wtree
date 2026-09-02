@@ -15,6 +15,19 @@ class Wtree < Formula
 
   def caveats
     <<~EOS
+                                            ,.,
+                                ,.,       .MMMM.
+                      ,.,     .MMMM.    ,MMMMMM.
+            ,.,      MMMMM.  MMMMMMMM  MMMMMMMMM
+           MMMMM    MMMMMMMM MMMMMMMM MMMMMMMMMM
+            "|"       "||"     "||"      "||"
+             |          ||       ||        ||
+        _____|__________||_______||________||_____
+       /                                          \\
+       \\__________________________________________/
+
+                    w t r e e
+
       To enable `wtree switch` and tab-completion, source the shell
       integration file for your shell in your rc file:
 
