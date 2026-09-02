@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ruby -c Formula/wtree.rb
+      - run: brew tap lmaia-22/wtree "$GITHUB_WORKSPACE"
+      - run: brew audit --strict --online lmaia-22/wtree/wtree
