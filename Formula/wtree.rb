@@ -1,8 +1,8 @@
 class Wtree < Formula
   desc "Bare-clone git worktrees, without the ceremony"
   homepage "https://github.com/lmaia-22/wtree"
-  url "https://github.com/lmaia-22/wtree/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "97e08f6607e108f25dbaab78e901d1a6f29a2b85a9d7830819e10a187996e97a"
+  url "https://github.com/lmaia-22/wtree/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "a5df4aa228482be4f7b09ed629930035e4521e359fd65bf0d9fee899ba327a7a"
   license "MIT"
 
   depends_on "fzf"
